@@ -22,6 +22,7 @@
 		6703D1C11FFB8B7300469A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6703D1C41FFB8B7300469A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6703D1C61FFB8B7300469A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6703D1CC1FFB8C0C00469A25 /* UniversalLinksDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalLinksDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		6703D1B91FFB8B7300469A25 /* UniversalLinksDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6703D1CC1FFB8C0C00469A25 /* UniversalLinksDemo.entitlements */,
 				6703D1BA1FFB8B7300469A25 /* AppDelegate.swift */,
 				6703D1BC1FFB8B7300469A25 /* ViewController.swift */,
 				6703D1BE1FFB8B7300469A25 /* Main.storyboard */,
@@ -97,6 +99,11 @@
 					6703D1B61FFB8B7300469A25 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -274,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UniversalLinksDemo/UniversalLinksDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23P8M9VEK5;
 				INFOPLIST_FILE = UniversalLinksDemo/Info.plist;
@@ -289,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UniversalLinksDemo/UniversalLinksDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23P8M9VEK5;
 				INFOPLIST_FILE = UniversalLinksDemo/Info.plist;
