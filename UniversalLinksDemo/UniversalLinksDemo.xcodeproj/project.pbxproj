@@ -12,6 +12,8 @@
 		6703D1C01FFB8B7300469A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6703D1BE1FFB8B7300469A25 /* Main.storyboard */; };
 		6703D1C21FFB8B7300469A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6703D1C11FFB8B7300469A25 /* Assets.xcassets */; };
 		6703D1C51FFB8B7300469A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6703D1C31FFB8B7300469A25 /* LaunchScreen.storyboard */; };
+		67F661DC1FFBC2F60026FEAA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 67F661DA1FFBC2F60026FEAA /* LICENSE */; };
+		67F661DD1FFBC2F60026FEAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 67F661DB1FFBC2F60026FEAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6703D1C41FFB8B7300469A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6703D1C61FFB8B7300469A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6703D1CC1FFB8C0C00469A25 /* UniversalLinksDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalLinksDemo.entitlements; sourceTree = "<group>"; };
+		67F661DA1FFBC2F60026FEAA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		67F661DB1FFBC2F60026FEAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 		6703D1AE1FFB8B7300469A25 = {
 			isa = PBXGroup;
 			children = (
+				67F661DA1FFBC2F60026FEAA /* LICENSE */,
+				67F661DB1FFBC2F60026FEAA /* README.md */,
 				6703D1B91FFB8B7300469A25 /* UniversalLinksDemo */,
 				6703D1B81FFB8B7300469A25 /* Products */,
 			);
@@ -132,6 +138,8 @@
 			files = (
 				6703D1C51FFB8B7300469A25 /* LaunchScreen.storyboard in Resources */,
 				6703D1C21FFB8B7300469A25 /* Assets.xcassets in Resources */,
+				67F661DD1FFBC2F60026FEAA /* README.md in Resources */,
+				67F661DC1FFBC2F60026FEAA /* LICENSE in Resources */,
 				6703D1C01FFB8B7300469A25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
