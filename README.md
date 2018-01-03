@@ -35,5 +35,5 @@ When you support universal links, iOS users can tap a link to your website and g
 设置成功后，在entitlements File中有相同的配置
 ![](https://github.com/STShenZhaoliang/STImage/blob/master/UniversalLinks/image2.png)
 4. 操作成功后的效果图
-![](https://github.com/STShenZhaoliang/STImage/blob/master/UniversalLinks/image3.png)
+![](https://github.com/STShenZhaoliang/STImage/blob/master/UniversalLinks/image3.PNG)
 
